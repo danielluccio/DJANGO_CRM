@@ -1,0 +1,88 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+*.egg-info/
+*.egg
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Django stuff:
+db.sqlite3
+db.sqlite3-journal
+media/
+staticfiles/
+
+# Local settings
+*.local_settings.py
+
+# Logs
+*.log
+*.out
+*.err
+logs/
+
+# Unit test / coverage reports
+.coverage
+.tox/
+.nox/
+coverage.xml
+*.cover
+.hypothesis/
+*.hypothesis/
+*.mocha/
+.jest/
+
+# Virtual environment
+*.env
+.env/
+
+# Environment variables
+*.env.*
+!.env.example
+
+# PyCharm project files
+.idea/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Mac OS
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# VS Code settings
+.vscode/
+
+# Temporary files
+*.swp
+*.swo
+~$
+
+# Celery beat schedule file
+celerybeat-schedule
+
+# MyPy cache
+.mypy_cache/
+
+# Sphinx documentation
+docs/_build/
+
+# pyenv
+.python-version
