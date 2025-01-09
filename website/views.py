@@ -22,15 +22,17 @@ def home(request):
             return render(request, template_name)
         else:
             messages.error(request, "There was an error logging in. Please try again.")
-            return render(request, 'home.html')  # Re-renderiza a página com mensagens de erro
+            return render(request, 'home.html')
     else:
         return render(request, 'home.html')
 
 
-def login_user(request):
-    pass
 
 def logout_user(request):
-    pass
+    logout(request)
+    messages.success(request, "You have a been Logged Out...")
+    return redirect('home')
 
+def register_user(request):
+    return render(request, 'register.html', {})
 
